@@ -1,0 +1,17 @@
+{
+  "name": "ldssite",
+  "version": "1.1.5",
+  "description": "鲁大师前端项目脚手架",
+  "author": "Ludashi Frontend Team",
+  "main": "index.js",
+  "bin": {
+    "ldssite": "./lib/core.js"
+  },
+  "preferGlobal": true,
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "inquirer": "^7.3.3",
+    "shelljs": "^0.8.4"
+  }
+}

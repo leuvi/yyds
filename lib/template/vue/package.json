@@ -1,0 +1,33 @@
+{
+  "name": "static_site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server  --config ./webpack/webpack.config.dev.js --line",
+    "dev_pc": "webpack-dev-server  --config ./webpack/webpack.config.dev.js --line --dev_pc",
+    "dev_h5": "webpack-dev-server  --config ./webpack/webpack.config.dev.js --line --dev_h5",
+    "build": "webpack --config ./webpack/webpack.config.prod.js --dev_pc && webpack --config ./webpack/webpack.config.prod.js --dev_h5",
+    "copy": "node ./copy.js",
+    "cdn": "node ./upload_cdn.js",
+    "prod": "npm run build && npm run cdn && npm run copy"
+  },
+  "keywords": [],
+  "author": "528046@qq.com",
+  "license": "ISC",
+  "devDependencies": {
+    "art-template-loader": "^1.4.3"
+  },
+  "browserslist": {
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "cef-bridge": "git+ssh://git@gitlab-inc.ludashi.com:fxd-utils/cef-bridge.git",
+    "@babel/polyfill": "^7.10.1",
+    "art-template": "^4.13.2"
+  }
+}
