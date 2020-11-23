@@ -3,7 +3,7 @@
 ## 安装
 
 ```sh
-$ npm install -g ldssite
+$ npm install -g ldssite@latest
 ```
 
 ## 使用
