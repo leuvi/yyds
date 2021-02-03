@@ -1,30 +1,31 @@
-# 鲁大师前端项目脚手架
+# 快速开发脚手架
+
 
 ## 安装
 
 ```sh
-$ npm install -g ldssite@latest
+$ npm i -g yyds
 ```
 
 ## 使用
 
 ```javascript
 //初始化
-$ ldssite init [project]
+$ yyds init [project]
 
 //版本信息
-$ ldssite -v
+$ yyds -v
 
 //帮助
-$ ldssite -h
+$ yyds -h
 ```
 
 ## Node环境集成工具包
 
 ```javascript
-import { cp, rm, sed, log } from 'ldssite'
+import { cp, rm, sed, log } from 'yyds'
 
-//文件拷贝 cp('dist/*.html', '../www.ludashi.com/www')
+//文件拷贝
 cp(dir, outdir)
 
 //文件删除
