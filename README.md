@@ -1,40 +1,40 @@
-# 快速开发脚手架
+# Quickly create project cli
 
 
-## 安装
+## install
 
 ```sh
 $ npm i -g yyds
 ```
 
-## 使用
+## usage
 
 ```javascript
-//初始化
+//init
 $ yyds init [project]
 
-//版本信息
+//version
 $ yyds -v
 
-//帮助
+//help
 $ yyds -h
 ```
 
-## Node环境集成工具包
+## integration toolkit
 
 ```javascript
 import { cp, rm, sed, log } from 'yyds'
 
-//文件拷贝
+//copy
 cp(dir, outdir)
 
-//文件删除
+//delete
 rm(dir)
 
-//文件内容替换
+//replace string
 sed(grepString, newString, file)
 
-//命令行美化输出 
-//color: hex格式(#ff3300) type: -i 反转色 -u 下划线
+//beautiful output
+//color: hex(#ff3300) type: -i reverse color -u underline
 log(text, [color,] [type])
 ```

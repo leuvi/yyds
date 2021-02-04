@@ -1,16 +1,24 @@
 {
   "name": "yyds",
   "version": "0.1.1",
-  "description": "快速开发脚手架",
+  "description": "quickly create project cli",
   "main": "index.js",
   "bin": {
     "yyds": "./lib/core.js"
   },
-  "scripts": {
-    "start": "node ./lib/core.js -h"
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/leuvi/yyds.git"
+  },
+  "keywords": [
+    "cli",
+    "command",
+    "yyds"
+  ],
+  "engines": {
+    "node": ">=6"
   },
   "preferGlobal": true,
-  "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.0",
     "commander": "^7.0.0",
@@ -19,5 +27,9 @@
     "log-symbols": "^4.0.0",
     "ora": "^5.3.0",
     "shelljs": "^0.8.4"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/leuvi/yyds/issues"
+  },
+  "license": "MIT"
 }
