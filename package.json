@@ -1,6 +1,6 @@
 {
   "name": "yyds",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "quickly create project cli",
   "main": "index.js",
   "bin": {
