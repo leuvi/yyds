@@ -1,8 +1,7 @@
 {
   "name": "yyds",
-  "version": "0.1.4",
-  "description": "quickly create project cli",
-  "main": "index.js",
+  "version": "0.1.5",
+  "description": "快速构建前端各类模板脚手架",
   "author": "leuvi",
   "bin": {
     "yyds": "./lib/core.js"
@@ -14,7 +13,8 @@
   "keywords": [
     "cli",
     "command",
-    "yyds"
+    "yyds",
+    "rollup"
   ],
   "engines": {
     "node": ">=6"

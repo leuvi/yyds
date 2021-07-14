@@ -1,40 +1,31 @@
-# Quickly create project cli
+# 快速构建前端各类模板脚手架
 
 
-## install
+## 全局安装
 
 ```sh
 $ npm i -g yyds
 ```
 
-## usage
+## 如何使用
 
 ```javascript
-//init
+//初始化项目
 $ yyds init [project]
 
-//version
+//查看版本
 $ yyds -v
 
-//help
+//帮助信息
 $ yyds -h
 ```
 
-## integration toolkit
+## 支持的模板包括
 
-```javascript
-import { cp, rm, sed, log } from 'yyds'
-
-//copy
-cp(dir, outdir)
-
-//delete
-rm(dir)
-
-//replace string
-sed(grepString, newString, file)
-
-//beautiful output
-//color: hex(#ff3300) type: -i reverse color -u underline
-log(text, [color,] [type])
-```
+- 原生单页模板(适合专题页、简单官网，支持PC和H5)
+- Vue模板
+- React模板
+- Vue管理后台模板
+- React管理后台模板
+- Rollup类库构建模板
+- NPM包构建模板
