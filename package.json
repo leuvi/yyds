@@ -1,6 +1,6 @@
 {
   "name": "yyds",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "快速构建前端各类模板脚手架",
   "author": "leuvi",
   "bin": {
